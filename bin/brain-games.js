@@ -1,2 +1,5 @@
-console.log("node bin/brain-games.js\n" +
-    "Welcome to the Brain Games!");
+#!/usr/bin/env node
+import {greeting} from "../src/cli.js";
+
+console.log('brain-games')
+greeting();
